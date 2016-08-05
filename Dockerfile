@@ -1,6 +1,6 @@
 FROM scratch
 
-COPY content/ /
+COPY content/ 
 
 EXPOSE 9000
 ENTRYPOINT ["/dockerui"]
